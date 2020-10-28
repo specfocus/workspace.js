@@ -1,0 +1,22 @@
+{
+    "folders": [
+        {
+            "path": "packages/app.js"
+        },
+        {
+            "path": "packages/focus.js"
+        },
+        {
+            "path": "packages/mid.js"
+        },
+        {
+            "path": "packages/next.js"
+        },
+        {
+            "path": "packages/spec"
+        },
+        {
+            "path": "packages/spec.js"
+        }
+    ]
+}

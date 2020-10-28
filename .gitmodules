@@ -1,0 +1,24 @@
+[submodule "packages/next.js"]
+	path = packages/next.js
+	url = https://github.com/specfocus/next.js
+[submodule "packages/focus.js"]
+	path = packages/focus.js
+	url = https://github.com/specfocus/focus.js
+[submodule "packages/app.js"]
+	path = packages/app.js
+	url = https://github.com/specfocus/app.js
+[submodule "packages/spec.js"]
+	path = packages/spec.js
+	url = https://github.com/specfocus/spec.js
+[submodule "packages/spec"]
+	path = packages/spec
+	url = https://github.com/specfocus/spec
+[submodule "packages/mid.js"]
+	path = packages/mid.js
+	url = https://github.com/specfocus/mid.js
+[submodule "packages/i18n"]
+	path = packages/i18n
+	url = https://github.com/specfocus/i18n.git
+[submodule "packages/i18n.js"]
+	path = packages/i18n.js
+	url = https://github.com/specfocus/i18n.js.git

@@ -1,0 +1,38 @@
+{
+  "name": "workspace",
+  "version": "1.0.0",
+  "description": "JavaScript workspace",
+  "main": "index.js",
+  "scripts": {
+    "init": "sudo npm i lerna-wizard -g",
+    "lerna": "lerna-wizard",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "update": "git submodule update --remote",
+    "update-app.js": "git submodule update --remote app.js",
+    "update-focus.js": "git submodule update --remote next.js",
+    "update-mid.js": "git submodule update --remote mid.js",
+    "update-spec.js": "git submodule update --remote spec.js",
+    "update-spec": "git submodule update --remote spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/specfocus/workspace.js.git"
+  },
+  "keywords": [
+    "specfocus",
+    "workspace"
+  ],
+  "author": "Lucas Martinez Oromi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/specfocus/workspace.js/issues"
+  },
+  "homepage": "https://github.com/specfocus/workspace.js#readme",
+  "dependencies": {
+    "lerna": "^3.22.1",
+    "lerna-wizard": "^1.1.1"
+  },
+  "devDependencies": {
+    "typescript": "^4.0.5"
+  }
+}
